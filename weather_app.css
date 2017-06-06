@@ -1,0 +1,124 @@
+body {
+    min-width: 1000px;
+    width: 100%;
+    background-color: white;
+    }    
+ .header {
+    margin-left: -8px;
+    background-color: black;
+    height: 80px;
+    margin-top: -8px;
+    color: white;
+    display: flex;
+    font-family: Helvetica;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+}
+ .Current {
+    margin-left: -8px;
+    font-family: Helvetica;
+    background-size: 100%;
+    padding-top: 100px;
+    min-height: 600px;
+    max-height: 650px;
+    background-image: url("https://lonelyplanetimages.imgix.net/mastheads/stock-photo-welcome-to-cape-town-104168527.jpg?sharp=10&vib=20&w=1200") ;
+    background-repeat: no-repeat;
+ }
+form {
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    display: flex;
+}
+input[type="text"] {
+    height: 45px;
+    background: rgba(255,255,255,.1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    margin-top: 12px;
+    justify-content: center;
+    margin-left: 20px;
+}
+#submitBtn {
+    padding: 15px;
+    font-size: 15px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 45px;
+}
+.location {
+    font-weight: bold;
+    color: #ffffcc;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Now {
+    color: #ffffcc;
+    width: 100%;
+    text-align: center;
+}
+.Summary {
+    font-size: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.Temperature {
+    font-size: 170px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.daily-data {
+    margin-top: 10px;
+    height: 200px;
+    line-height: 70px;
+    color: black;
+    font-family: Helvetica;
+    font-style: sans-serif;
+    font-size: 20px;
+}
+.temp {
+    width: 50px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+}
+.temperature-low {
+    color: grey;
+}
+.temperature-high {
+    margin-right: 20px;
+}
+.day {
+    background-color: #ccddff;
+    margin: 10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.precip {
+    margin-left: 120px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+}
+.description {
+    margin-left: 100px;
+}
+.weekday {
+    width: 50px;
+    margin-left: 50px;
+}
